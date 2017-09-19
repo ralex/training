@@ -1,8 +1,7 @@
 image: debian:stable
 
 before_script:
-  - apt-get update -yqq
-  - apt-get install bc
+  - apt-get update -yqq && apt-get install -yqq bc
 
 test:
   script: bash tests/bash_unit tests/test_simple_addition.sh
