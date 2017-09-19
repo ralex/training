@@ -1,2 +1,4 @@
+image: debian:stable
+
 test:
   script: bash tests/bash_unit tests/test_simple_addition.sh
