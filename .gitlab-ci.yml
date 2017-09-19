@@ -1,4 +1,4 @@
-image: ubuntu:latest
+image: ubuntu:trusty
 
 test:
   script: bash tests/bash_unit tests/test_simple_addition.sh
