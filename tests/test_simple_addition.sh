@@ -16,6 +16,10 @@ test_float_addition() {
     assert_equals "3.4" "$(../simple_addition.sh 2 1.4)"
 }
 
+test_negative_addition() {
+    assert_equals "-3" "$(../simple_addition.sh 2 -5)"
+}
+
 test_fail_missing_parameter() {
     assert_fails "$(../simple_addition.sh)"
 }
