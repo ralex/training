@@ -1,4 +1,7 @@
-image: ubuntu:trusty
+image: debian:stable
+
+before_script:
+  apt-get install bc
 
 test:
   script: bash tests/bash_unit tests/test_simple_addition.sh
