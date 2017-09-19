@@ -1,2 +1,2 @@
 langauage: bash
-script: ./bash_unit tests/test_simple_addition.sh
+script: ./tests/bash_unit tests/test_simple_addition.sh
