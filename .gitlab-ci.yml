@@ -1,0 +1,2 @@
+test:
+  script: bash bash_unit tests/test_simple_addition.sh
